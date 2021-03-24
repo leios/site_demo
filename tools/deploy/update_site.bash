@@ -9,7 +9,7 @@ set -o errexit
 
 DOCS_BRANCH_NAME=gh-pages
 DOCS_REPO_NAME=site_demo
-DOCS_REPO_OWNER=leios
+DOCS_REPO_OWNER=3b1b
 
 BOOK_BUILD_DIR=_book
 
@@ -36,8 +36,8 @@ elif [[ -z ${GH_TOKEN+x} ]]; then
     exit 1
 fi
 
-git config --global user.name "James Schloss"
-git config --global user.email "jrs.schloss@gmail.com"
+git config --global user.name "Grant Sanderson"
+git config --global user.email "grant@3blue1brown.com"
 
 GH_REPO_REF="github.com/${DOCS_REPO_OWNER}/${DOCS_REPO_NAME}.git"
 
